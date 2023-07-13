@@ -1,0 +1,9 @@
+@import '../../theme/theme.scss';
+
+.home {
+  background: $grey-lighter-bg;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

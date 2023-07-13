@@ -1,0 +1,32 @@
+@import '../../../theme/theme.scss';
+
+.input_wrp {
+  display: block;
+}
+
+.label {
+  margin-bottom: 4px;
+  font-size: 15px;
+  color: $black;
+} 
+
+.input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid $grey-dark;
+  transition: .3s;
+  outline: none;
+  background: $grey-light;
+  font-size: 18px;
+  width: 100%;
+  color: $black;
+  
+  &:hover {
+    border-color: $black;
+  }
+
+  &::placeholder {
+    font-size: 18px;
+    color: $grey-dark;
+  }
+}
